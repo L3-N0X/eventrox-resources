@@ -1,0 +1,33 @@
+{
+  "providers": [
+    { "type": "space", "advances": { " ": 4 } },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/waypoint.png",
+      "chars": ["\ue000"],
+      "ascent": 7,
+      "height": 14
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/overworld.png",
+      "chars": ["\ue001"],
+      "ascent": 7,
+      "height": 14
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/nether.png",
+      "chars": ["\ue002"],
+      "ascent": 7,
+      "height": 14
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/end.png",
+      "chars": ["\ue003"],
+      "ascent": 7,
+      "height": 14
+    }
+  ]
+}
