@@ -1,0 +1,32 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eventrox:server/banner.png",
+      "ascent": 24,
+      "height": 24,
+      "chars": ["\ueff3"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:server/banner.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": ["\ueff4"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:server/deathrun.png",
+      "ascent": 24,
+      "height": 24,
+      "chars": ["\ueff5"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:server/deathrun.png",
+      "ascent": 16,
+      "height": 20,
+      "chars": ["\ueff6"]
+    }
+  ]
+}

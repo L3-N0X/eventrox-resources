@@ -1,0 +1,82 @@
+{
+  "providers": [
+    { "type": "space", "advances": { " ": 4 } },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/100.png",
+      "chars": ["\ue004"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/130.png",
+      "chars": ["\ue005"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/188.png",
+      "chars": ["\ue006"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/35.png",
+      "chars": ["\ue007"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/44.png",
+      "chars": ["\ue008"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/50.png",
+      "chars": ["\ue009"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/64.png",
+      "chars": ["\ue00a"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/80.png",
+      "chars": ["\ue00b"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/players.png",
+      "chars": ["\ue010"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/death.png",
+      "chars": ["\ue011"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/timer.png",
+      "chars": ["\ue021"],
+      "ascent": 9,
+      "height": 14
+    }
+  ]
+}
