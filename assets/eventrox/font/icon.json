@@ -28,6 +28,13 @@
       "chars": ["\ue003"],
       "ascent": 7,
       "height": 14
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/portal.png",
+      "chars": ["\ue004"],
+      "ascent": 7,
+      "height": 14
     }
   ]
 }
