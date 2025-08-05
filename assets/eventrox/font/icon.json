@@ -35,6 +35,13 @@
       "chars": ["\ue004"],
       "ascent": 7,
       "height": 14
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/village.png",
+      "chars": ["\ue005"],
+      "ascent": 7,
+      "height": 14
     }
   ]
 }
