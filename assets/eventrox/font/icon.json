@@ -42,6 +42,104 @@
       "chars": ["\ue005"],
       "ascent": 7,
       "height": 14
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/waypoint.png",
+      "chars": ["\ue006"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/overworld.png",
+      "chars": ["\ue007"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/nether.png",
+      "chars": ["\ue008"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/end.png",
+      "chars": ["\ue009"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/portal.png",
+      "chars": ["\ue00a"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/village.png",
+      "chars": ["\ue00b"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/palette.png",
+      "chars": ["\ue00c"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/pause.png",
+      "chars": ["\ue00d"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/pencil.png",
+      "chars": ["\ue00e"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/play.png",
+      "chars": ["\ue00f"],
+      "ascent": 7,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/reset.png",
+      "chars": ["\ue010"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/settings.png",
+      "chars": ["\ue011"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/brush.png",
+      "chars": ["\ue012"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/back.png",
+      "chars": ["\ue013"],
+      "ascent": 7,
+      "height": 7
     }
   ]
 }
