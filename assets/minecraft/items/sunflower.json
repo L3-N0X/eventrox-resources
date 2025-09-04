@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/sunflower"
+    },
+    "cases": [
+      {
+        "when": "settings",
+        "model": {
+          "type": "model",
+          "model": "item/settings"
+        }
+      },
+      {
+        "when": "random_player",
+        "model": {
+          "type": "model",
+          "model": "item/random_player"
+        }
+      }
+    ]
+  }
+}
