@@ -140,6 +140,34 @@
       "chars": ["\ue013"],
       "ascent": 7,
       "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/color.png",
+      "chars": ["\ue014"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/plus.png",
+      "chars": ["\ue015"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/trash.png",
+      "chars": ["\ue016"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/minus.png",
+      "chars": ["\ue017"],
+      "ascent": 7,
+      "height": 7
     }
   ]
 }
