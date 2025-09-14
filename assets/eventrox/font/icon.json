@@ -136,7 +136,7 @@
     },
     {
       "type": "bitmap",
-      "file": "eventrox:font/icon/back.png",
+      "file": "eventrox:font/icon/arrow_left.png",
       "chars": ["\ue013"],
       "ascent": 7,
       "height": 7
@@ -166,6 +166,41 @@
       "type": "bitmap",
       "file": "eventrox:font/icon/minus.png",
       "chars": ["\ue017"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/arrow_right.png",
+      "chars": ["\ue018"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/check.png",
+      "chars": ["\ue019"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/timer.png",
+      "chars": ["\ue020"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/change.png",
+      "chars": ["\ue021"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/team.png",
+      "chars": ["\ue022"],
       "ascent": 7,
       "height": 7
     }
