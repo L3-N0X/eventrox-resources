@@ -27,6 +27,13 @@
       "ascent": 16,
       "height": 20,
       "chars": ["\ueff6"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:server/collectrush.png",
+      "ascent": 16,
+      "height": 20,
+      "chars": ["\ueff7"]
     }
   ]
 }
