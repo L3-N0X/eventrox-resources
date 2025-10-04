@@ -203,6 +203,147 @@
       "chars": ["\ue022"],
       "ascent": 7,
       "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/search.png",
+      "chars": ["\ue023"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/arrow_long_right.png",
+      "chars": ["\ue024"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/arrow_long_left.png",
+      "chars": ["\ue025"],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/list.png",
+      "chars": ["\ue026"],
+      "ascent": 7,
+      "height": 7
+    },
+
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/banner.png",
+      "ascent": 24,
+      "height": 24,
+      "chars": ["\uee03"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/banner.png",
+      "ascent": 16,
+      "height": 20,
+      "chars": ["\uee04"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/banner.png",
+      "ascent": 20,
+      "height": 32,
+      "chars": ["\uee05"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 24,
+      "height": 24,
+      "chars": ["\uee06"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 16,
+      "height": 20,
+      "chars": ["\uee07"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 20,
+      "height": 32,
+      "chars": ["\uee08"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/collectrush.png",
+      "ascent": 18,
+      "height": 20,
+      "chars": ["\uee09"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/collectrush.png",
+      "ascent": 24,
+      "height": 24,
+      "chars": ["\uee0a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/collectrush.png",
+      "ascent": 20,
+      "height": 32,
+      "chars": ["\uee0b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/collectrush.png",
+      "ascent": 7,
+      "height": 11,
+      "chars": ["\uee0c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/collectrush.png",
+      "ascent": 7,
+      "height": 14,
+      "chars": ["\uee0d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/countdown/1.png",
+      "ascent": 7,
+      "height": 20,
+      "chars": ["\uec01"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/countdown/2.png",
+      "ascent": 7,
+      "height": 20,
+      "chars": ["\uec02"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/countdown/3.png",
+      "ascent": 7,
+      "height": 20,
+      "chars": ["\uec03"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/countdown/go.png",
+      "ascent": 7,
+      "height": 20,
+      "chars": ["\uec04"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/subtitle/leaderboard.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": ["\ued00"]
     }
   ]
 }
