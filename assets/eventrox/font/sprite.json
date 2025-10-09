@@ -344,6 +344,41 @@
       "ascent": 5,
       "height": 5,
       "chars": ["\ued00"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/block.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\ueef0"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/block_round.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\ueef1"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/block_two_shade.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\ueef2"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/block_fancy.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\ueef3"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/block_fancy_end.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\ueef4"]
     }
   ]
 }

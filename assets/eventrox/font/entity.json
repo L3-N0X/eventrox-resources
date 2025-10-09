@@ -1,0 +1,70 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/entity/entity.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\ue200\ue201\ue202\ue203\ue204\ue205\ue206\ue207",
+        "\ue208\ue209\ue20a\ue20b\ue20c\ue20d\ue20e\ue20f",
+        "\ue210\ue211\ue212\ue213\ue214\ue215\ue216\ue217",
+        "\ue218\ue219\ue21a\ue21b\ue21c\ue21d\ue21e\ue21f",
+        "\ue220\ue221\ue222\ue223\ue224\ue225\ue226\ue227",
+        "\ue228\ue229\ue22a\ue22b\ue22c\ue22d\ue22e\ue22f",
+        "\ue230\ue231\ue232\ue233\ue234\ue235\ue236\ue237",
+        "\ue238\ue239\ue23a\ue23b\ue23c\ue23d\ue23e\ue23f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/entity/entity2.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\ue240\ue241\ue242\ue243\ue244\ue245\ue246\ue247",
+        "\ue248\ue249\ue24a\ue24b\ue24c\ue24d\ue24e\ue24f",
+        "\ue250\ue251\ue252\ue253\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/entity/entity.png",
+      "ascent": 48,
+      "height": 48,
+      "width": 48,
+      "chars": [
+        "\ue300\ue301\ue302\ue303\ue304\ue305\ue306\ue307",
+        "\ue308\ue309\ue30a\ue30b\ue30c\ue30d\ue30e\ue30f",
+        "\ue310\ue311\ue312\ue313\ue314\ue315\ue316\ue317",
+        "\ue318\ue319\ue31a\ue31b\ue31c\ue31d\ue31e\ue31f",
+        "\ue320\ue321\ue322\ue323\ue324\ue325\ue326\ue327",
+        "\ue328\ue329\ue32a\ue32b\ue32c\ue32d\ue32e\ue32f",
+        "\ue330\ue331\ue332\ue333\ue334\ue335\ue336\ue337",
+        "\ue338\ue339\ue33a\ue33b\ue33c\ue33d\ue33e\ue33f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/entity/entity2.png",
+      "ascent": 48,
+      "height": 48,
+      "width": 48,
+      "chars": [
+        "\ue340\ue341\ue342\ue343\ue344\ue345\ue346\ue347",
+        "\ue348\ue349\ue34a\ue34b\ue34c\ue34d\ue34e\ue34f",
+        "\ue350\ue351\ue352\ue353\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    }
+  ]
+}
