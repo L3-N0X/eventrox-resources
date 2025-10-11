@@ -1,9 +1,6 @@
 {
   "providers": [
-    {
-      "type": "reference",
-      "id": "minecraft:include/space"
-    },
+    { "type": "space", "advances": { " ": 6 } },
     {
       "type": "bitmap",
       "file": "eventrox:font/caps.png",
