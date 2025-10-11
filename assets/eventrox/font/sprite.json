@@ -232,6 +232,13 @@
       "ascent": 7,
       "height": 7
     },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/bold_vertical_line.png",
+      "chars": ["\ue027"],
+      "ascent": 7,
+      "height": 8
+    },
 
     {
       "type": "bitmap",
@@ -379,6 +386,41 @@
       "ascent": 8,
       "height": 8,
       "chars": ["\ueef4"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/prefix/dev.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ueee0"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/prefix/mod.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ueee1"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/prefix/admin.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ueee2"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/prefix/twitch.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ueee3"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/prefix/vip.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ueee4"]
     }
   ]
 }
