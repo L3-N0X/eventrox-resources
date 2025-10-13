@@ -239,6 +239,20 @@
       "ascent": 7,
       "height": 8
     },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/dead.png",
+      "chars": ["\ue028"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/x.png",
+      "chars": ["\ue029"],
+      "ascent": 8,
+      "height": 8
+    },
 
     {
       "type": "bitmap",
@@ -421,6 +435,13 @@
       "ascent": 7,
       "height": 7,
       "chars": ["\ueee4"]
+    },
+    {
+      "ascent": 42,
+      "chars": ["\uefe0"],
+      "file": "eventrox:font/container/backpack_6.png",
+      "height": 256,
+      "type": "bitmap"
     }
   ]
 }
