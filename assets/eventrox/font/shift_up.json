@@ -2,8 +2,8 @@
   "providers": [
     { "advances": { " ": 4.5 }, "type": "space" },
     {
-      "file": "eventrox:caps.ttf",
-      "oversample": 7,
+      "file": "eventrox:mccaps.ttf",
+      "oversample": 4,
       "shift": [0.0, -9],
       "size": 6,
       "type": "ttf"
