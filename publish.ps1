@@ -18,24 +18,24 @@ $BranchName = "main"
 $ZipFileName = "server_textures.zip"
 
 # List of files and folders to include in the zip.
-# Separate items with a comma.
-# Example: "assets", "pack.mcmeta", "pack.png"
-$FilesToZip = @("assets", "pack.mcmeta", "pack.png")
+# Separate items with a comma. Example: "assets", "pack.mcmeta"
+$FilesToZip = @("assets", "pack.mcmeta")
 
 ################################################################################
 # SCRIPT LOGIC - DO NOT EDIT BELOW THIS LINE
 ################################################################################
 
+# PRE-FLIGHT CHECK: Verify that the GitHub CLI is installed.
+if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
+    Write-Host "❌ ERROR: GitHub CLI ('gh') not found." -ForegroundColor Red
+    Write-Host "Please install it from https://cli.github.com/ and authenticate with 'gh auth login'." -ForegroundColor Yellow
+    exit 1
+}
+
 Write-Host "🚀 Starting resource pack deployment..." -ForegroundColor Cyan
 
 # 1. VERSIONING
-# Check if .version file exists, create it if not.
-if (-not (Test-Path ".version")) {
-    "1.0.0" | Out-File .version
-    Write-Host "Created initial .version file."
-}
-
-# Read, increment, and save the version.
+if (-not (Test-Path ".version")) { "1.0.0" | Out-File .version }
 $currentVersion = Get-Content .version
 $major, $minor, $patch = $currentVersion.Split('.')
 $patch = [int]$patch + 1
@@ -43,31 +43,39 @@ $newVersion = "$major.$minor.$patch"
 $newVersion | Out-File .version
 Write-Host "⬆️  Version updated from $currentVersion to $newVersion" -ForegroundColor Green
 
+# The Git tag will be prefixed with 'v' (e.g., v1.0.3)
+$tagName = "v$newVersion"
+
 # 2. ZIPPING
 Write-Host "📦 Creating zip archive: $ZipFileName..." -ForegroundColor Cyan
-# Remove the old zip file if it exists to prevent errors
-if (Test-Path $ZipFileName) {
-    Remove-Item $ZipFileName
-}
-# Create the new zip archive
+if (Test-Path $ZipFileName) { Remove-Item $ZipFileName }
 Compress-Archive -Path $FilesToZip -DestinationPath $ZipFileName
 
-# 3. GIT OPERATIONS
-Write-Host "📡 Committing and pushing changes to GitHub..." -ForegroundColor Cyan
-# Add, commit, and push the changes
+# 3. GIT & GITHUB OPERATIONS
+Write-Host "📡 Committing, tagging, and pushing to GitHub..." -ForegroundColor Cyan
+
+# Commit the changes
 git add $ZipFileName
 git add .version
 git commit -m "chore: release version $newVersion"
 git push origin $BranchName
 
+# Create and push the new tag
+git tag $tagName
+git push origin $tagName
+
+# Create the GitHub Release and upload the zip file as an asset
+Write-Host "🎉 Creating GitHub Release for tag $tagName..." -ForegroundColor Cyan
+gh release create $tagName --title "Version $newVersion" --notes "Automated release for version $newVersion." "$ZipFileName"
+
 # 4. OUTPUT
-Write-Host "✅ Push successful! Generating links..." -ForegroundColor Green
-# Get commit hash and file's SHA-1 hash
-$commitHash = git rev-parse HEAD
+Write-Host "✅ Push and release successful! Generating links..." -ForegroundColor Green
+
+# Calculate the SHA-1 hash for integrity checks
 $fileSha1 = (Get-FileHash $ZipFileName -Algorithm SHA1).Hash.ToLower()
 
-# Construct the CDN URL
-$cdnUrl = "https://cdn.jsdelivr.net/gh/$GithubUser/$GithubRepo@$commitHash/$ZipFileName"
+# Construct the new jsDelivr URL pointing to the tag
+$cdnUrl = "https://cdn.jsdelivr.net/gh/$GithubUser/$GithubRepo@$tagName/$ZipFileName"
 
 # Print the final report
 Write-Host ""
@@ -75,7 +83,7 @@ Write-Host "========================================================" -Foregroun
 Write-Host "✅ Deployment Complete!" -ForegroundColor Green
 Write-Host ""
 Write-Host "  Version:      $newVersion"
-Write-Host "  Commit Hash:  $commitHash"
+Write-Host "  Tag:          $tagName"
 Write-Host "  File SHA-1:   $fileSha1"
 Write-Host ""
 Write-Host "  CDN URL:      $cdnUrl"
