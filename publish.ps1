@@ -20,7 +20,7 @@ $ZipFileName = "server_textures.zip"
 # List of files and folders to include in the zip.
 # Separate items with a comma.
 # Example: "assets", "pack.mcmeta", "pack.png"
-$FilesToZip = @("assets", "pack.mcmeta, pack.png")
+$FilesToZip = @("assets", "pack.mcmeta", "pack.png")
 
 ################################################################################
 # SCRIPT LOGIC - DO NOT EDIT BELOW THIS LINE
@@ -55,7 +55,8 @@ Compress-Archive -Path $FilesToZip -DestinationPath $ZipFileName
 # 3. GIT OPERATIONS
 Write-Host "📡 Committing and pushing changes to GitHub..." -ForegroundColor Cyan
 # Add, commit, and push the changes
-git add $ZipFileName, .version
+git add $ZipFileName
+git add .version
 git commit -m "chore: release version $newVersion"
 git push origin $BranchName
 
