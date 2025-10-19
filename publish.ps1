@@ -19,7 +19,7 @@ $ZipFileName = "server_textures.zip"
 
 # List of files and folders to include in the zip.
 # Separate items with a comma. Example: "assets", "pack.mcmeta"
-$FilesToZip = @("assets", "pack.mcmeta")
+$FilesToZip = @("assets", "pack.mcmeta", "pack.png")
 
 ################################################################################
 # SCRIPT LOGIC - DO NOT EDIT BELOW THIS LINE
@@ -43,6 +43,18 @@ $newVersion = "$major.$minor.$patch"
 $newVersion | Out-File .version
 Write-Host "⬆️  Version updated from $currentVersion to $newVersion" -ForegroundColor Green
 
+# Update pack.mcmeta description with the new version
+$packMetaPath = "pack.mcmeta"
+if (Test-Path $packMetaPath) {
+    $packMetaContent = Get-Content $packMetaPath -Raw
+    # Server Textures • v1.0.0
+    $updatedContent = $packMetaContent -replace '(Server Pack • v)(\d+\.\d+\.\d+)', "Server Pack • v$newVersion"
+    Set-Content -Path $packMetaPath -Value $updatedContent
+    Write-Host "📝 Updated pack.mcmeta description with new version." -ForegroundColor Green
+} else {
+    Write-Host "⚠️  Warning: pack.mcmeta not found. Skipping description update." -ForegroundColor Yellow
+}
+
 # The Git tag will be prefixed with 'v' (e.g., v1.0.3)
 $tagName = "v$newVersion"
 
@@ -64,15 +76,21 @@ git push origin $BranchName
 git tag $tagName
 git push origin $tagName
 
+# Calculate the SHA-1 hash for integrity checks
+$fileSha1 = (Get-FileHash $ZipFileName -Algorithm SHA1).Hash.ToLower()
+
 # Create the GitHub Release and upload the zip file as an asset
 Write-Host "🎉 Creating GitHub Release for tag $tagName..." -ForegroundColor Cyan
-gh release create $tagName --title "Version $newVersion" --notes "Automated release for version $newVersion." "$ZipFileName"
+
+$notes = @"
+SHA-1: $fileSha1
+Automated release for version $newVersion.
+"@
+
+gh release create $tagName --title "Version $newVersion" --notes "$notes" "$ZipFileName"
 
 # 4. OUTPUT
 Write-Host "✅ Push and release successful! Generating links..." -ForegroundColor Green
-
-# Calculate the SHA-1 hash for integrity checks
-$fileSha1 = (Get-FileHash $ZipFileName -Algorithm SHA1).Hash.ToLower()
 
 # Construct the new jsDelivr URL pointing to the tag
 $cdnUrl = "https://cdn.jsdelivr.net/gh/$GithubUser/$GithubRepo@$tagName/$ZipFileName"
