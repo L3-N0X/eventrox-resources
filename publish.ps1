@@ -69,6 +69,7 @@ Write-Host "📡 Committing, tagging, and pushing to GitHub..." -ForegroundColor
 # Commit the changes
 git add $ZipFileName
 git add .version
+git add $packMetaPath
 git commit -m "chore: release version $newVersion"
 git push origin $BranchName
 
