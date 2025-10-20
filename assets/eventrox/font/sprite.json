@@ -253,6 +253,55 @@
       "ascent": 8,
       "height": 8
     },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/server.png",
+      "chars": ["\ue02a"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/server_settings.png",
+      "chars": ["\ue02b"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/person.png",
+      "chars": ["\ue02c"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/person_ask.png",
+      "chars": ["\ue02d"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/config.png",
+      "chars": ["\ue02e"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/list_check.png",
+      "chars": ["\ue02f"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/list_x.png",
+      "chars": ["\ue030"],
+      "ascent": 8,
+      "height": 8
+    },
 
     {
       "type": "bitmap",
