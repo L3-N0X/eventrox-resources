@@ -403,6 +403,20 @@
     },
     {
       "type": "bitmap",
+      "file": "eventrox:font/background/button_start.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\ueef5"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/background/button_end.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\ueef6"]
+    },
+    {
+      "type": "bitmap",
       "file": "eventrox:font/prefix/dev.png",
       "ascent": 7,
       "height": 7,
