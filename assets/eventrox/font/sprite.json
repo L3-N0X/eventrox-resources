@@ -302,6 +302,20 @@
       "ascent": 8,
       "height": 8
     },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/permission.png",
+      "chars": ["\ue031"],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/person_permission.png",
+      "chars": ["\ue032"],
+      "ascent": 8,
+      "height": 8
+    },
 
     {
       "type": "bitmap",
