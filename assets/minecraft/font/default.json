@@ -26006,28 +26006,28 @@
     {
       "type": "bitmap",
       "file": "minecraft:sprites/ev.png",
-      "ascent": 0,
+      "ascent": 20,
       "height": 48,
       "chars": "\uff00"
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/en.png",
-      "ascent": 0,
+      "ascent": 20,
       "height": 48,
       "chars": "\uff01"
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/tr.png",
-      "ascent": 0,
+      "ascent": 20,
       "height": 48,
       "chars": "\uff02"
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/ox.png",
-      "ascent": 0,
+      "ascent": 20,
       "height": 48,
       "chars": "\uff03"
     },
