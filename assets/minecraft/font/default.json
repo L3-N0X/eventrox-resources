@@ -26008,35 +26008,35 @@
       "file": "minecraft:sprites/ev.png",
       "ascent": 20,
       "height": 48,
-      "chars": "\uff00"
+      "chars": ["\uff00"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/en.png",
       "ascent": 20,
       "height": 48,
-      "chars": "\uff01"
+      "chars": ["\uff01"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/tr.png",
       "ascent": 20,
       "height": 48,
-      "chars": "\uff02"
+      "chars": ["\uff02"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/ox.png",
       "ascent": 20,
       "height": 48,
-      "chars": "\uff03"
+      "chars": ["\uff03"]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/developer.png",
       "ascent": 20,
       "height": 96,
-      "chars": "\uff04"
+      "chars": ["\uff04"]
     },
     {
       "type": "reference",
