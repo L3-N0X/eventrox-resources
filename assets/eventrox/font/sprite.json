@@ -396,6 +396,42 @@
     },
     {
       "type": "bitmap",
+      "file": "eventrox:font/title/eventrox.png",
+      "ascent": 18,
+      "height": 20,
+      "chars": ["\uee09"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/eventrox.png",
+      "ascent": 24,
+      "height": 24,
+      "chars": ["\uee0a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/eventrox.png",
+      "ascent": 20,
+      "height": 32,
+      "chars": ["\uee0b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/eventrox.png",
+      "ascent": 7,
+      "height": 11,
+      "chars": ["\uee0c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/eventrox.png",
+      "ascent": 7,
+      "height": 14,
+      "chars": ["\uee0d"]
+    },
+
+    {
+      "type": "bitmap",
       "file": "eventrox:font/countdown/1.png",
       "ascent": 7,
       "height": 20,

@@ -26005,24 +26005,38 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:sprites/even.png",
+      "file": "minecraft:sprites/ev.png",
       "ascent": 0,
       "height": 48,
-      "chars": "\uE000"
+      "chars": "\uff00"
     },
     {
       "type": "bitmap",
-      "file": "minecraft:sprites/trox.png",
+      "file": "minecraft:sprites/en.png",
       "ascent": 0,
       "height": 48,
-      "chars": "\uE001"
+      "chars": "\uff01"
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sprites/tr.png",
+      "ascent": 0,
+      "height": 48,
+      "chars": "\uff00"
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sprites/ox.png",
+      "ascent": 0,
+      "height": 48,
+      "chars": "\uff01"
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/developer.png",
       "ascent": 20,
       "height": 96,
-      "chars": "\uE002"
+      "chars": "\uff02"
     }
   ]
 }
