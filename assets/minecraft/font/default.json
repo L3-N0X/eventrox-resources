@@ -26022,21 +26022,21 @@
       "file": "minecraft:sprites/tr.png",
       "ascent": 0,
       "height": 48,
-      "chars": "\uff00"
+      "chars": "\uff02"
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/ox.png",
       "ascent": 0,
       "height": 48,
-      "chars": "\uff01"
+      "chars": "\uff03"
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/developer.png",
       "ascent": 20,
       "height": 96,
-      "chars": "\uff02"
+      "chars": "\uff04"
     }
   ]
 }
