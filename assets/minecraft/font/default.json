@@ -5,7 +5,9 @@
       "file": "space:font/splitter.png",
       "ascent": -9999,
       "height": -2,
-      "chars": ["󀀀"]
+      "chars": [
+        "󀀀"
+      ]
     },
     {
       "type": "space",
@@ -16400,6 +16402,7 @@
     {
       "type": "space",
       "advances": {
+        "Ѷ": -1.2,
         "񎵀": -1,
         "񎵁": -0.9997916666666666666666666667,
         "񎵂": -0.9995833333333333333333333333,
@@ -26006,37 +26009,47 @@
     {
       "type": "bitmap",
       "file": "minecraft:sprites/ev.png",
-      "ascent": 20,
-      "height": 48,
-      "chars": ["\uff00"]
+      "ascent": 24,
+      "height": 24,
+      "chars": [
+        "\uff00"
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/en.png",
-      "ascent": 20,
-      "height": 48,
-      "chars": ["\uff01"]
+      "ascent": 24,
+      "height": 24,
+      "chars": [
+        "\uff01"
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/tr.png",
-      "ascent": 20,
-      "height": 48,
-      "chars": ["\uff02"]
+      "ascent": 24,
+      "height": 24,
+      "chars": [
+        "\uff02"
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/ox.png",
-      "ascent": 20,
-      "height": 48,
-      "chars": ["\uff03"]
+      "ascent": 24,
+      "height": 24,
+      "chars": [
+        "\uff03"
+      ]
     },
     {
       "type": "bitmap",
       "file": "minecraft:sprites/developer.png",
-      "ascent": 20,
-      "height": 96,
-      "chars": ["\uff04"]
+      "ascent": -16,
+      "height": 28,
+      "chars": [
+        "\uff04"
+      ]
     },
     {
       "type": "reference",

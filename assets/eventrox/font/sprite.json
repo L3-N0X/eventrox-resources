@@ -1,557 +1,754 @@
 {
   "providers": [
-    { "type": "space", "advances": { " ": 4 } },
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/waypoint.png",
-      "chars": ["\ue000"],
+      "chars": [
+        "\ue000"
+      ],
       "ascent": 7,
       "height": 14
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/overworld.png",
-      "chars": ["\ue001"],
+      "chars": [
+        "\ue001"
+      ],
       "ascent": 7,
       "height": 14
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/nether.png",
-      "chars": ["\ue002"],
+      "chars": [
+        "\ue002"
+      ],
       "ascent": 7,
       "height": 14
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/end.png",
-      "chars": ["\ue003"],
+      "chars": [
+        "\ue003"
+      ],
       "ascent": 7,
       "height": 14
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/portal.png",
-      "chars": ["\ue004"],
+      "chars": [
+        "\ue004"
+      ],
       "ascent": 7,
       "height": 14
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/village.png",
-      "chars": ["\ue005"],
+      "chars": [
+        "\ue005"
+      ],
       "ascent": 7,
       "height": 14
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/waypoint.png",
-      "chars": ["\ue006"],
+      "chars": [
+        "\ue006"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/overworld.png",
-      "chars": ["\ue007"],
+      "chars": [
+        "\ue007"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/nether.png",
-      "chars": ["\ue008"],
+      "chars": [
+        "\ue008"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/end.png",
-      "chars": ["\ue009"],
+      "chars": [
+        "\ue009"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/portal.png",
-      "chars": ["\ue00a"],
+      "chars": [
+        "\ue00a"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/village.png",
-      "chars": ["\ue00b"],
+      "chars": [
+        "\ue00b"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/palette.png",
-      "chars": ["\ue00c"],
+      "chars": [
+        "\ue00c"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/pause.png",
-      "chars": ["\ue00d"],
+      "chars": [
+        "\ue00d"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/pencil.png",
-      "chars": ["\ue00e"],
+      "chars": [
+        "\ue00e"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/play.png",
-      "chars": ["\ue00f"],
+      "chars": [
+        "\ue00f"
+      ],
       "ascent": 7,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/reset.png",
-      "chars": ["\ue010"],
+      "chars": [
+        "\ue010"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/settings.png",
-      "chars": ["\ue011"],
+      "chars": [
+        "\ue011"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/brush.png",
-      "chars": ["\ue012"],
+      "chars": [
+        "\ue012"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/arrow_left.png",
-      "chars": ["\ue013"],
+      "chars": [
+        "\ue013"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/color.png",
-      "chars": ["\ue014"],
+      "chars": [
+        "\ue014"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/plus.png",
-      "chars": ["\ue015"],
+      "chars": [
+        "\ue015"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/trash.png",
-      "chars": ["\ue016"],
+      "chars": [
+        "\ue016"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/minus.png",
-      "chars": ["\ue017"],
+      "chars": [
+        "\ue017"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/arrow_right.png",
-      "chars": ["\ue018"],
+      "chars": [
+        "\ue018"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/check.png",
-      "chars": ["\ue019"],
+      "chars": [
+        "\ue019"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/timer.png",
-      "chars": ["\ue020"],
+      "chars": [
+        "\ue020"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/change.png",
-      "chars": ["\ue021"],
+      "chars": [
+        "\ue021"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/team.png",
-      "chars": ["\ue022"],
+      "chars": [
+        "\ue022"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/search.png",
-      "chars": ["\ue023"],
+      "chars": [
+        "\ue023"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/arrow_long_right.png",
-      "chars": ["\ue024"],
+      "chars": [
+        "\ue024"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/arrow_long_left.png",
-      "chars": ["\ue025"],
+      "chars": [
+        "\ue025"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/list.png",
-      "chars": ["\ue026"],
+      "chars": [
+        "\ue026"
+      ],
       "ascent": 7,
       "height": 7
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/bold_vertical_line.png",
-      "chars": ["\ue027"],
+      "chars": [
+        "\ue027"
+      ],
       "ascent": 7,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/dead.png",
-      "chars": ["\ue028"],
+      "chars": [
+        "\ue028"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/x.png",
-      "chars": ["\ue029"],
+      "chars": [
+        "\ue029"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/server.png",
-      "chars": ["\ue02a"],
+      "chars": [
+        "\ue02a"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/server_settings.png",
-      "chars": ["\ue02b"],
+      "chars": [
+        "\ue02b"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/person.png",
-      "chars": ["\ue02c"],
+      "chars": [
+        "\ue02c"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/person_ask.png",
-      "chars": ["\ue02d"],
+      "chars": [
+        "\ue02d"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/config.png",
-      "chars": ["\ue02e"],
+      "chars": [
+        "\ue02e"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/list_check.png",
-      "chars": ["\ue02f"],
+      "chars": [
+        "\ue02f"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/list_x.png",
-      "chars": ["\ue030"],
+      "chars": [
+        "\ue030"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/permission.png",
-      "chars": ["\ue031"],
+      "chars": [
+        "\ue031"
+      ],
       "ascent": 8,
       "height": 8
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/icon/person_permission.png",
-      "chars": ["\ue032"],
+      "chars": [
+        "\ue032"
+      ],
       "ascent": 8,
       "height": 8
     },
-
     {
       "type": "bitmap",
       "file": "eventrox:font/title/banner.png",
       "ascent": 24,
       "height": 24,
-      "chars": ["\uee03"]
+      "chars": [
+        "\uee03"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/banner.png",
       "ascent": 16,
       "height": 20,
-      "chars": ["\uee04"]
+      "chars": [
+        "\uee04"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/banner.png",
       "ascent": 20,
       "height": 32,
-      "chars": ["\uee05"]
+      "chars": [
+        "\uee05"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/deathrun.png",
       "ascent": 24,
       "height": 24,
-      "chars": ["\uee06"]
+      "chars": [
+        "\uee06"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/deathrun.png",
       "ascent": 16,
       "height": 20,
-      "chars": ["\uee07"]
+      "chars": [
+        "\uee07"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/deathrun.png",
       "ascent": 20,
       "height": 32,
-      "chars": ["\uee08"]
+      "chars": [
+        "\uee08"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/collectrush.png",
       "ascent": 18,
       "height": 20,
-      "chars": ["\uee09"]
+      "chars": [
+        "\uee09"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/collectrush.png",
       "ascent": 24,
       "height": 24,
-      "chars": ["\uee0a"]
+      "chars": [
+        "\uee0a"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/collectrush.png",
       "ascent": 20,
       "height": 32,
-      "chars": ["\uee0b"]
+      "chars": [
+        "\uee0b"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/collectrush.png",
       "ascent": 7,
       "height": 11,
-      "chars": ["\uee0c"]
+      "chars": [
+        "\uee0c"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/collectrush.png",
       "ascent": 7,
       "height": 14,
-      "chars": ["\uee0d"]
+      "chars": [
+        "\uee0d"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/eventrox.png",
       "ascent": 18,
       "height": 20,
-      "chars": ["\uee09"]
+      "chars": [
+        "\uee0e"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/eventrox.png",
       "ascent": 24,
       "height": 24,
-      "chars": ["\uee0a"]
+      "chars": [
+        "\uee0f"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/eventrox.png",
       "ascent": 20,
       "height": 32,
-      "chars": ["\uee0b"]
+      "chars": [
+        "\uee10"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/eventrox.png",
       "ascent": 7,
       "height": 11,
-      "chars": ["\uee0c"]
+      "chars": [
+        "\uee11"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/title/eventrox.png",
       "ascent": 7,
       "height": 14,
-      "chars": ["\uee0d"]
+      "chars": [
+        "\uee12"
+      ]
     },
-
+    {
+      "type": "bitmap",
+      "file": "minecraft:sprites/ev.png",
+      "ascent": 0,
+      "height": 24,
+      "chars": [
+        "\uff00"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sprites/en.png",
+      "ascent": 0,
+      "height": 24,
+      "chars": [
+        "\uff01"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sprites/tr.png",
+      "ascent": 0,
+      "height": 24,
+      "chars": [
+        "\uff02"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:sprites/ox.png",
+      "ascent": 0,
+      "height": 24,
+      "chars": [
+        "\uff03"
+      ]
+    },
     {
       "type": "bitmap",
       "file": "eventrox:font/countdown/1.png",
       "ascent": 7,
       "height": 20,
-      "chars": ["\uec01"]
+      "chars": [
+        "\uec01"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/countdown/2.png",
       "ascent": 7,
       "height": 20,
-      "chars": ["\uec02"]
+      "chars": [
+        "\uec02"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/countdown/3.png",
       "ascent": 7,
       "height": 20,
-      "chars": ["\uec03"]
+      "chars": [
+        "\uec03"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/countdown/go.png",
       "ascent": 7,
       "height": 20,
-      "chars": ["\uec04"]
+      "chars": [
+        "\uec04"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/subtitle/leaderboard.png",
       "ascent": 5,
       "height": 5,
-      "chars": ["\ued00"]
+      "chars": [
+        "\ued00"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/background/block.png",
       "ascent": 8,
       "height": 8,
-      "chars": ["\ueef0"]
+      "chars": [
+        "\ueef0"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/background/block_round.png",
       "ascent": 8,
       "height": 8,
-      "chars": ["\ueef1"]
+      "chars": [
+        "\ueef1"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/background/block_two_shade.png",
       "ascent": 8,
       "height": 8,
-      "chars": ["\ueef2"]
+      "chars": [
+        "\ueef2"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/background/block_fancy.png",
       "ascent": 8,
       "height": 8,
-      "chars": ["\ueef3"]
+      "chars": [
+        "\ueef3"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/background/block_fancy_end.png",
       "ascent": 8,
       "height": 8,
-      "chars": ["\ueef4"]
+      "chars": [
+        "\ueef4"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/background/button_start.png",
       "ascent": 8,
       "height": 8,
-      "chars": ["\ueef5"]
+      "chars": [
+        "\ueef5"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/background/button_end.png",
       "ascent": 8,
       "height": 8,
-      "chars": ["\ueef6"]
+      "chars": [
+        "\ueef6"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/prefix/dev.png",
       "ascent": 7,
       "height": 7,
-      "chars": ["\ueee0"]
+      "chars": [
+        "\ueee0"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/prefix/mod.png",
       "ascent": 7,
       "height": 7,
-      "chars": ["\ueee1"]
+      "chars": [
+        "\ueee1"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/prefix/admin.png",
       "ascent": 7,
       "height": 7,
-      "chars": ["\ueee2"]
+      "chars": [
+        "\ueee2"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/prefix/twitch.png",
       "ascent": 7,
       "height": 7,
-      "chars": ["\ueee3"]
+      "chars": [
+        "\ueee3"
+      ]
     },
     {
       "type": "bitmap",
       "file": "eventrox:font/prefix/vip.png",
       "ascent": 7,
       "height": 7,
-      "chars": ["\ueee4"]
+      "chars": [
+        "\ueee4"
+      ]
     },
     {
       "ascent": 42,
-      "chars": ["\uefe0"],
+      "chars": [
+        "\uefe0"
+      ],
       "file": "eventrox:font/container/backpack_6.png",
       "height": 256,
       "type": "bitmap"

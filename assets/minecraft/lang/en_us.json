@@ -1,7 +1,9 @@
 {
   "menu.custom_screen_info.tooltip": "",
-  "menu.disconnect": "Disconnect󏾒\uff04",
-  "menu.game": "\uff00\uff01\uff02\uff03",
+  "menu.disconnect": " Disconnect",
+  "menu.game": "\uff00󏿿\uff01󏿿\uff02󏿿\uff03",
   "menu.server_links": "Server Links...",
-  "menu.server_links.title": "Server Links"
+  "menu.server_links.title": "Server Links",
+  "menu.options": "\uff04󏽴 Options...",
+  "menu.playerReporting": "Player Reporting"
 }
