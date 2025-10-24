@@ -26037,6 +26037,10 @@
       "ascent": 20,
       "height": 96,
       "chars": "\uff04"
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:eventrox/icons"
     }
   ]
 }
