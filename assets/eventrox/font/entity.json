@@ -1,6 +1,10 @@
 {
   "providers": [
     {
+      "type": "reference",
+      "id": "minecraft:default"
+    },
+    {
       "type": "bitmap",
       "file": "eventrox:font/entity/entity.png",
       "ascent": 8,
