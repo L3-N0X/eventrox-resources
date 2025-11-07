@@ -440,33 +440,6 @@
     },
     {
       "type": "bitmap",
-      "file": "eventrox:font/title/deathrun.png",
-      "ascent": 24,
-      "height": 24,
-      "chars": [
-        "\uee06"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "eventrox:font/title/deathrun.png",
-      "ascent": 16,
-      "height": 20,
-      "chars": [
-        "\uee07"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "eventrox:font/title/deathrun.png",
-      "ascent": 20,
-      "height": 32,
-      "chars": [
-        "\uee08"
-      ]
-    },
-    {
-      "type": "bitmap",
       "file": "eventrox:font/title/collectrush.png",
       "ascent": 18,
       "height": 20,
@@ -553,6 +526,69 @@
       "height": 14,
       "chars": [
         "\uee12"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/chat_header_l.png",
+      "ascent": 7,
+      "height": 14,
+      "chars": [
+        "\uee13"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/chat_header_r.png",
+      "ascent": 7,
+      "height": 14,
+      "chars": [
+        "\uee14"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 18,
+      "height": 20,
+      "chars": [
+        "\uee15"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 24,
+      "height": 24,
+      "chars": [
+        "\uee16"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 20,
+      "height": 32,
+      "chars": [
+        "\uee17"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 7,
+      "height": 11,
+      "chars": [
+        "\uee18"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/deathrun.png",
+      "ascent": 7,
+      "height": 14,
+      "chars": [
+        "\uee19"
       ]
     },
     {
