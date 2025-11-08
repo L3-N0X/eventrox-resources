@@ -549,8 +549,8 @@
     {
       "type": "bitmap",
       "file": "eventrox:font/title/deathrun.png",
-      "ascent": 18,
-      "height": 20,
+      "ascent": 14,
+      "height": 15,
       "chars": [
         "\uee15"
       ]
@@ -558,8 +558,8 @@
     {
       "type": "bitmap",
       "file": "eventrox:font/title/deathrun.png",
-      "ascent": 24,
-      "height": 24,
+      "ascent": 18,
+      "height": 18,
       "chars": [
         "\uee16"
       ]
@@ -568,7 +568,7 @@
       "type": "bitmap",
       "file": "eventrox:font/title/deathrun.png",
       "ascent": 20,
-      "height": 32,
+      "height": 24,
       "chars": [
         "\uee17"
       ]
@@ -589,6 +589,42 @@
       "height": 14,
       "chars": [
         "\uee19"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/north.png",
+      "ascent": 48,
+      "height": 54,
+      "chars": [
+        "\uee1a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/south.png",
+      "ascent": 48,
+      "height": 54,
+      "chars": [
+        "\uee1b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/east.png",
+      "ascent": 48,
+      "height": 54,
+      "chars": [
+        "\uee1c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/west.png",
+      "ascent": 48,
+      "height": 54,
+      "chars": [
+        "\uee1d"
       ]
     },
     {
