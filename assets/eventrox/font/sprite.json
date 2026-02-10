@@ -413,6 +413,78 @@
     },
     {
       "type": "bitmap",
+      "file": "eventrox:font/icon/world.png",
+      "chars": [
+        "\ue033"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/pvp.png",
+      "chars": [
+        "\ue034"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/backpack.png",
+      "chars": [
+        "\ue035"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/restart.png",
+      "chars": [
+        "\ue036"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/difficult.png",
+      "chars": [
+        "\ue037"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/fun.png",
+      "chars": [
+        "\ue038"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/misc.png",
+      "chars": [
+        "\ue039"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/icon/random.png",
+      "chars": [
+        "\ue03a"
+      ],
+      "ascent": 8,
+      "height": 8
+    },
+    {
+      "type": "bitmap",
       "file": "eventrox:font/title/banner.png",
       "ascent": 24,
       "height": 24,
