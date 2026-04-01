@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "sprites/items",
+      "prefix": "sprites/items/"
+    }
+  ]
+}
