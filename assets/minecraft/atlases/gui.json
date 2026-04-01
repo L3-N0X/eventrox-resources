@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "eventrox:item",
+      "prefix": "eventrox:item/"
+    }
+  ]
+}
