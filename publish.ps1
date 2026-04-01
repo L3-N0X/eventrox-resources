@@ -48,7 +48,7 @@ $packMetaPath = "pack.mcmeta"
 if (Test-Path $packMetaPath) {
     $packMetaContent = Get-Content $packMetaPath -Raw
     # Server Textures • v1.0.0
-    $updatedContent = $packMetaContent -replace '(Server Pack • v)(\d+\.\d+\.\d+)', "Server Pack • v$newVersion"
+    $updatedContent = $packMetaContent -replace '(v)(\d+\.\d+\.\d+)', "v$newVersion"
     Set-Content -Path $packMetaPath -Value $updatedContent
     Write-Host "📝 Updated pack.mcmeta description with new version." -ForegroundColor Green
 } else {

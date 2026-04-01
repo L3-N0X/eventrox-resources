@@ -1,8 +1,38 @@
 {
   "pack": {
-    "pack_format": 34,
-    "supported_formats": { "min_inclusive": 34, "max_inclusive": 84 },
-    "description": "§aJu5tNele Server Pack \n§8Server Pack • v1.0.58"
+    "description": [
+      {
+        "text": "JustNele",
+        "color": "#65c976"
+      },
+      {
+        "text": " Server Pack",
+        "color": "#459052"
+      },
+      {
+        "text": "light blue",
+        "color": "#86d5e4"
+      },
+      "\n",
+      {
+        "text": "Reuired • ",
+        "color": "#5b7d63"
+      },
+      {
+        "text": "v1.0.58",
+        "color": "#686f6a"
+      },
+      {
+        "text": " (server)",
+        "color": "#5c5c5c"
+      }
+    ],
+    "pack_format": 46,
+    "supported_formats": {
+      "min_inclusive": 18,
+      "max_inclusive": 84
+    },
+    "min_format": 18,
+    "max_format": 84
   }
 }
-
