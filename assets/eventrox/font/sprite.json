@@ -746,6 +746,51 @@
     },
     {
       "type": "bitmap",
+      "file": "eventrox:font/title/forceitem.png",
+      "ascent": 14,
+      "height": 15,
+      "chars": [
+        "\uee23"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/forceitem.png",
+      "ascent": 18,
+      "height": 18,
+      "chars": [
+        "\uee24"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/forceitem.png",
+      "ascent": 20,
+      "height": 24,
+      "chars": [
+        "\uee25"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/forceitem.png",
+      "ascent": 7,
+      "height": 11,
+      "chars": [
+        "\uee26"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/forceitem.png",
+      "ascent": 7,
+      "height": 14,
+      "chars": [
+        "\uee27"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:sprites/ev.png",
       "ascent": 0,
       "height": 24,
