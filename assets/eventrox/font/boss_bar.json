@@ -66,6 +66,13 @@
     },
     {
       "type": "bitmap",
+      "file": "eventrox:font/background/seekers.png",
+      "chars": ["\ue012"],
+      "ascent": 9,
+      "height": 11
+    },
+    {
+      "type": "bitmap",
       "file": "eventrox:font/background/death.png",
       "chars": ["\ue011"],
       "ascent": 9,

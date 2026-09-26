@@ -791,6 +791,51 @@
     },
     {
       "type": "bitmap",
+      "file": "eventrox:font/title/hideandseek.png",
+      "ascent": 39,
+      "height": 43,
+      "chars": [
+        "\uee28"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/hideandseek.png",
+      "ascent": 52,
+      "height": 52,
+      "chars": [
+        "\uee29"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/hideandseek.png",
+      "ascent": 43,
+      "height": 69,
+      "chars": [
+        "\uee2a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/hideandseek.png",
+      "ascent": 15,
+      "height": 24,
+      "chars": [
+        "\uee2b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/title/hideandseek.png",
+      "ascent": 15,
+      "height": 30,
+      "chars": [
+        "\uee2c"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:sprites/ev.png",
       "ascent": 0,
       "height": 24,
@@ -876,7 +921,7 @@
       "ascent": 8,
       "height": 8,
       "chars": [
-        "\ueef0"
+        "\uee00"
       ]
     },
     {
