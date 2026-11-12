@@ -1,0 +1,40 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/progress/frame_90.png",
+      "chars": [
+        "\ue000"
+      ],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/progress/fill_1.png",
+      "chars": [
+        "\ue001"
+      ],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/progress/fill_2.png",
+      "chars": [
+        "\ue002"
+      ],
+      "ascent": 7,
+      "height": 7
+    },
+    {
+      "type": "bitmap",
+      "file": "eventrox:font/progress/fill_4.png",
+      "chars": [
+        "\ue003"
+      ],
+      "ascent": 7,
+      "height": 7
+    }
+  ]
+}
