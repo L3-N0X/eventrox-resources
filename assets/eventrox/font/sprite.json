@@ -944,6 +944,15 @@
     },
     {
       "type": "bitmap",
+      "file": "eventrox:font/title/charity.png",
+      "chars": [
+        "\uee39"
+      ],
+      "ascent": 43,
+      "height": 36
+    },
+    {
+      "type": "bitmap",
       "file": "minecraft:sprites/ev.png",
       "ascent": 0,
       "height": 24,
